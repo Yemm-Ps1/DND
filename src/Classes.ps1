@@ -11,7 +11,6 @@ class stat{
     [int]GetMod(){
         return [int][math]::Floor(($this.Value/2)-5)
     }
-
 }
 <#
 class proficiencies {
@@ -91,13 +90,7 @@ class character{
     }
 }
 
-class turn {
-    $character
-    $input
-    [void]Attack(){
 
-    }
-}
 
 
 
@@ -260,7 +253,6 @@ class player : character {
             $this.hp = $this.GetHP()
         }
         Write-Host "$($this.WriteName()) heals for " -NoNewline; Write-Host "$value" -ForegroundColor Green -NoNewline; Write-Host " and is now at " -NoNewline; $this.WriteHP();Write-Host " health"
-        Write-Host ""
     }
     [void]DeclareHP(){
         Write-Host "$($this.WriteName($true)) has $($this.hp)hp!"

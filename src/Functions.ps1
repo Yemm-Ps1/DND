@@ -1,16 +1,47 @@
+
+
 Function Prompt {
     Write-Host ("DND>") -NoNewline -ForegroundColor Cyan
     return " "
 }
 
+Function Aids{
+    foreach($player in $players){if($player.name -ne "Svenn Irontallow"){$player.hp += 5}}
+}
 Function Start-DND {
     Param()
     Get-Players
-    Write-Host "---The Prince of Darkness---" -ForegroundColor DarkYellow
+    Write-Host "" -ForegroundColor DarkYellow
     #Write-Host ""
 
 }
 
+Function RandomItem {
+    $randomItems = Get-Content "D:\DnD\PND\RandomItems.txt"
+    $roll = (!r 1d100 -return)
+    $randomItems | Select-String -Pattern "^$roll."
+}
+
+Function ShipDamage {
+    !r 1d1500+500
+}
+
+Function New-Save{
+    [Alias("Rest")]
+    Param(
+    $Mod,
+    $Limit
+    )
+    foreach($player in $players){
+        $num = (!r 1d20+$($player."$Mod".mod) -return)
+        if($num -lt $Limit){
+            "$($player.writename()) failed their save!"
+        }
+        else{
+            "$($player.WriteName()) success"
+        }
+    }
+}
 Function Start-Rest {
     [Alias("Rest")]
     Param(
@@ -25,6 +56,8 @@ Function Start-Rest {
                 $Player.LongRest()
             }else{
                 $Players.LongRest()
+                $Whiskers.HP += 2*$Players.level[0]
+                $Svenn.HP += 1*$Players.level[0]
             }
         }
         "Short"{
@@ -137,7 +170,7 @@ Function New-Player{
 
 
 Function Get-Player{
-    Param([ValidateSet('Varis Quinbiin', 'Arnac Rockfist', 'Woodroe Blue-Bark', 'Whiskers', 'Alfonzo', 'Spindles')]$Player)
+    Param([ValidateSet('Varis Quinbiin', 'Arnac Rockfist', 'Woodroe Blue-Bark', 'Whiskers', 'Alfonzo', 'Spindles', 'Rum', 'Jin', 'Svenn Irontallow', 'Jamuel Saxon')]$Player)
     # TODO - IMPORT PLAYERS BETTER
     $import = Import-Clixml ".\Players\$Player.xml"
     New-Player -importedXML $import
@@ -151,9 +184,14 @@ Function Get-Players{
     $Global:Arnac = Get-Player "Arnac Rockfist"
     $Global:Woodroe = Get-Player "Woodroe Blue-Bark"
     $Global:Whiskers = Get-Player "Whiskers"
+    $Global:Svenn = Get-Player "Svenn Irontallow"
+    $Global:Jamuel = Get-Player "Jamuel Saxon"
     $Global:Alfonzo = Get-Player "Alfonzo"
     $Global:Spindles = Get-Player "Spindles"
-    $Global:Players = @($Woodroe, $Varis, $Arnac, $Whiskers)
+    $Global:Jin = Get-Player "Jin"
+    $Global:Rum = Get-Player "Rum"
+
+    $Global:Players = @($Woodroe, $Varis, $Arnac, $Whiskers, $Svenn, $Jamuel)
 }
 Function Save-Player{
     Param($Player)
@@ -164,15 +202,13 @@ Function Save-Players{
     ForEach($Player in $Players){Save-Player $Player}
 }
 
-
-
 Function Healing-Potion {
     Param($Player)
     $Player.Heal($(!r 1d12+$($Player.Con.Mod) -return))
 }
 
-
-
+# joes bardic short rest ting
+#foreach($player in $players){$player.heal($(!r 1d6 -return))}
 Function New-Initiative {
     [Alias("Init")]
     Param($enemies = $null)
@@ -227,7 +263,6 @@ Function RollAdvantage{
     $second = !r 1d20+$modifier -return
     $winner = ($first, $second | Measure-Object -max).Maximum
     Write-Host "Rolled " -NoNewline;Write-Host $winner -ForegroundColor Red -NoNewline; Write-Host " with advantage"
-    
 }
 
 Function Roll {

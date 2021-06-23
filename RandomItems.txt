@@ -1,0 +1,100 @@
+1. Resistant to: 1 Fire – 2 Cold – 3 Necrotic – 4 Radiant – 5 Thunder – 6 Acid – 7 Lightning – 8 Poison
+2. Vulnerable to (1d8 above)
+3. Stat counts as if 19: 1 Strength – 2 Dexterity – 3 Constitution – 4 Intelligence – 5 Wisdom – 6 Charisma
+4. Stat counts as if 6 (1d6 above)
+5. Item gains sentience and a randomly rolled alignment (1d3 for each part)
+6. (Gen rolled this one!) 1/long rest, sprout seraphim wings. Gain a fly speed equal to walking speed for 5 minutes. Blind all who look directly at you. Count as an Angelic creature for this duration.
+7. You no longer need to breathe.
+8. 1d6 times per short rest you can burp at will and produce a large toad. This toad can carry a short dictated message to a destination you've visited and deliver the message to a target you've spoken with in the past. The toad hops out of sight and then travels instantly to an out of sight location within hopping distance of its destination.
+9. You can speak with cats. Others who hear the conversation will only hear loud meowing.
+10. You can speak French. French is not spoken in the Forgotten Realms.
+11. Getting drunk gives you advantage on all skill checks, but disadvantage on combat checks. Sobering up takes at least 4 hours.
+12. You always seem to win whatever game you play. You're not cheating, just... really lucky. After winning, you have disadvantage for the next 3 dice rolls.
+13. (Anna rolled this one!) Wearing this item has revealed to you the truth- you are the progeny of Bhaal. You gain 2 first level spell slots, and you add Tasha's Hideous Laughter and Fire Bolt to your spell list. The highest of Intelligence, Wisdom, or Charisma counts as your spellcasting stat.
+14. Once per short rest you may attack with a breath weapon, as the Dragonborn racial power. Roll 1d6 to determine whether the cone is Fire, Cold, Acid, Lightning, Poison, or Thunder.
+15. 1/day you may cast Detect Good/Evil and Protection Against Good/Evil.
+16. The item contains 4 charges. Each dawn it regains 1d4 charges. You can spend 1 charge to give yourself a cumulative +2 on any roll. You may choose to spend charges after discovering the result of your roll. If you spend the last charge, there is a 1 in 20 chance the item turns into the luckslug and slimes away forever.
+17. The item is invisible. It does not make anything else invisible. If it is a weapon, it confers advantage on attack rolls, but a -2 to your AC against melee attacks. Turns out it's hard to parry with a weapon you can't see.
+18. Once a week, the holder can summon a Sprite (MM p 283). The sprite is a friend but not a slave, and if it is slain the user cannot summon a new sprite.
+19. (Gen rolled this one!) Once a day, the user can summon a rhinoceros that obeys simple verbal commands and can act as a mount. The rhinoceros disappears after 8 hours.
+20. The item is now pink and it makes any fabric it touches pink.
+21. If the bearer of this item dies, they will return to full health and the item will shatter. Upon their resurrection, a blood clone of diametrically opposed alignment appears, which then works in complete opposition to the player's goals until slain. Once slain, it turns into a pool of blood.
+22. The bearer may speak a word to ignite their weapon (it passes this property to any ammunition fired from it as well). It burns with an intense heat, dealing 1d8 additional fire damage on successful hits for each round the bearer has it active. On the first round, the bearer takes 1 fire damage- on the second 2, and so on for as long as the item is active. This damage cannot be avoided or resisted unless the bearer is completely immune.
+23. The bearer gains the appearance of an undead creature. All damage dealt by the bearer is necrotic and counts as magical for the sake of enemy resistances. While bearing the item, the bearer cannot be healed by magical means.
+24. The bearer divides into a tesseract. His or her AC increases by 2, and he or she can become engaged in melee combat with any enemy in sight within a radius equal to the character's speed.
+25. 1/day, you can cause someone within 30' of you to make a DC 13 constitution save or become afflicted with the hiccups for 1d8 hours.
+26. You may cover your eyes with your hands to turn invisible. If you can't see them, they can't see you.
+27. This item grants non-magical attacks advantage as long as its bearer makes totally sick sound effects with every attack they make. Any failure to do so breaks the enchantment.
+28. The bearer becomes undead. Magical healing no longer affects the bearer, but if they deal a killing blow they rejuvenate hp equal to the total damage dealt.
+29. This item has 4 charges. It regenerates 1d4 charges at dawn each day. As a reaction, upon being damaged by a melee attack, the user can choose to expend a number of charges to deal 1d8 lightning damage per charge to the attacker. If the last charge is spent, there is a 1 in 20 chance that the item crumbles into dust.
+30. Once per short rest, as a bonus action, the bearer may teleport up to their speed to a target and make another attack.
+31. The bearer can double their proficiency bonus on any Athletics skill check.
+32. The bearer becomes an obligate vegetarian. However, the bearer can also subsist on roughage such as grass and leaves. The bearer gains a distinct gut from growing a second stomach.
+33. The bearer has advantage on all social checks as long as they speak in a sultry bedroom voice.
+34. 1/day, the bearer may assume the impression of an ancient chromatic dragon. Everyone within sight must succeed on a dc 18 wisdom save or become frightened.
+35. This item grants the bearer an additional concentration slot for the purposes of maintaining concentration spells.
+36. The bearer can choose to deal +3 damage, but shrinks 3” in height with every successful hit delivered in this manner.
+37. The bearer always lands on his or her feet, and gains advantage on checks related to jumping or tumbling.
+38. If the bearer eats the eyes of a slain foe, the bearer receives insight into what the foe has seen for the last 1d6 days.
+39. If the bearer eats the ears of a slain foe, the bearer receives insight into what the foe has heard for the last 1d6 days.
+40. Whenever you compliment someone, a flurry of rose petals appear around you and whomever you complemented. Once per short rest, the item can produce a single red rose on command.
+41. Your attacks are drawn to right legs. If the right leg of their target is armored or behind cover, you get disadvantage. If it's unarmored, you get advantage.
+42. Item gains the ability to tell you one thing you wish to know. The catch is that the item only understands and speaks French, never heard before in the Forgotten realms.
+43. The bearer of the item becomes deathly afraid of one random color when bearing it. But no color that's around when they put the item on.
+44. The item is capable of moving towards the last person to scratch or pet it fondly if they say, "Come!" to it at a rate of 5 feet per round. It can hear the command from great distances.
+45. With the command word, "Stay!" the item hovers exactly in place until offered a "treat." Weapons like blood. Most things like bacon.
+46. The item turns bright pink and feels slimy. As if from a tentacle.
+47. 1/day, you can cause your hands to start to spark, the next time you hit something with your fists the attack deals an additional 2d6 lightning damage and the target must make a Strength saving throw vs 8+ your Strength modifier or get pushed 10 feet.
+48. Once per short rest, you can gain the ability to read thoughts and send messages through thought to anyone you know for the next 10 minutes.
+49. You add 60' to your darkvision radius.
+50. 1/day, on command, the item plays a magical tune. All within hearing (including the bearer) must succeed on a charisma save (dc 13) or begin dancing uncontrollably for 5 minutes.
+51. Every attack against a creature of a given monster type adds +1 damage to creatures of that monster type. If the bearer attacks a creature of a different type, the bonus resets to +1 on the new monster type.
+52. Once per short rest, when the bearer is struck with an attack, the item casts Dissonant Whispers in a 10' radius around the attacker.
+53. When you slay something the item absorbs the life force of the the creature. If its a weapon add a single 1d4 necrotic charge to the next time you deal damage. If it isn't a weapon, add 1d4 temporary hp.
+54. When you make a ranged attack, roll a dc 15 wisdom save. If you succeed, your attack penetrates the target and then homes to attack another target within the weapon's normal range. Your ranged weapon will continue making attacks this way (even attacking allies) until no further targets remain, or it fails to penetrate a target.
+55. Once per turn, as a reaction, you may make a melee attack against a melee target who missed you. This attack has disadvantage.
+56. +2 to Initiative.
+57. Once per long rest you can declare a duel against an enemy target. You and that enemy will then fight until one of the two of you is dead.
+58. On command, this item emits bright light in a 10-foot-radius and dim light for an additional 20 feet.
+59. By concentrating, the bearer knows which way is north from his or her current position.
+60. When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience.
+61. While underground, the item’s bearer always knows her or his depth and the direction (though not distance) to the nearest staircase, ramp, or other path leading upward.
+62. Dirt and grime never accumulate on this item.
+63. The item is imbued with illusion magic, allowing its bearer to alter the item’s appearance in minor ways. Such alterations don’t change how the item is worn, carried, or wielded and have no effect on its other magical properties.
+64. The item is used to open or otherwise unlock a container, chamber, vault, or perhaps an entire tomb or dungeon.
+65. (JP rolled this one!) Choose a kind of creature that is an enemy of the item’s creator. This item glows when such creatures are within 100 feet of the item.
+66. The item transforms into a material (such as wood, bone, or glass) that is bizarre given its purpose.
+67. The bearer feels no effects of cold temperatures as low as 0˚ F or as warm as 120˚ F.
+68. This item floats. Its bearer has advantage on Strength (Athletics) checks made to swim.
+69. (Kaitlyn rolled this one!) When the bearer contemplates or undertakes a benevolent act, the item seeds the mind with doubt and rationalizations to work against the act.
+70. (If the item is a weapon) Upon successful hit, roll d100. If 90 or higher, enemy turns into a random Ooze. (Armor) Upon being hit, roll d100. If 95 or higher, enemy striking you is turned into a random ooze. Crit fail: On a 1, you turn into a random ooze.
+71. 1/day grants user the ability to move stone as if it were clay for 20 minutes.
+72. 1/day can user can use color spray from their mouth.
+73. (JP rolled this one!) At will, user can sacrifice 1d4 hp to their item to gain +3 AC and advantage on attacks and +3 damage for 5 minutes.
+74. You appear as if you were 85 years old, but suffer no penalties of aging.
+75. Any creature you strike must make a Wisdom Saving Throw vs DC 8 + your Charisma Modifier or be frightened of you until the start of your next turn.
+76. When using this item, the characters hair, including body/facial hair, grows 1d4 inches every twelve hours.
+77. This item can only be lifted by the first person to touch it after gaining this enchantment.
+78. 1/day, the bearer can cause complete natural darkness to descend within a 500' radius for 10 minutes.
+79. When you slay a creature with an extraordinary or pseudomagical attack power, you may absorb that power and use it as if it were your own.
+80. 1/day, when the bearer makes a successful attack and deals maximum damage, the bearer can instead choose to deal zero damage and polymorph the target into a duck for 10 minutes.
+81. 1/short rest, You can mentally manipulate objects up to a weight equal to your Intelligence + Wisdom in kg.
+82. 1/day, you may touch this item to something magical to dispel it. This item can take no more enchantments, and if it had other enchantments, it is now stripped of all others but Dispelling.
+83. 1/day, you may speak a command word to cause any one enemy within line of sight to burst into flame, taking 1d8 damage per round for 1d3 rounds. If the enemy doesn't die within the duration of the spell, the spell hops to you. Then to an enemy, then to an ally, so forth and so on, until it someone dies with the spell active.
+84. Target changes sex on a critical hit. User changes sex on a critical miss. Gender swap can affect a given creature only once.
+85. 1/day, the user can speak a command word to cause the weather to shift to the extreme of any season. The weather affects a radius of 3 miles around the user, and persists for 1 day.
+86. Your attack bonus is doubled. Your armor class is halved.
+87. All rolls of a natural 19 must be rerolled.
+88. Once per short rest, the user may speak a command word. Their weapon of choice projects a force shovel from the business end.
+89. Every now and then, eyes float up to the surface of the item, blink and look around before sinking. Shortly after a tiny arm forms and reaches blindly for something.
+90. On a natural 20, the user may make an additional attack.
+91. Roll a 1d8 alongside every attack. Attack's damage becomes the given damage type. 1 Fire – 2 Cold – 3 Necrotic – 4 Radiant – 5 Thunder – 6 Acid – 7 Lightning – 8 Poison
+92. 1/day, the bearer can speak a command word to create a 10' cube within which no sound can be heard.
+93. (Kaitlyn rolled this one!) 1/day, the bearer can skim 6” above the ground (or liquids!) for 5 minutes.
+94. 1/day, the bearer can analyze a script and attune to the language in order to read it.
+95. As an action, the bearer can see out of the eyes of any creature within line of sight.
+96. 1/day, when you would be reduced to 0 hit points from taking damage, you are instead reduced to 1 hit point. You gain the bleed-over damage as bonus damage to your next successful attack roll.
+97. 1/day, the bearer may speak a command to render 1 cubic foot of metal brittle.
+98. 1/day, on receiving typed damage, the bearer may use a reaction to become Resistant to that damage type.
+99. Once, the bearer may call upon Uthrak the Seething to open up his fell maw beneath a target within sight. Uthrak erupts, swallowing the target to digest it over 10,000 years. Uthrak the Seething rests at this location forever more, spewing out bile and corrosive gasses, slowly transforming the surrounding into his personal pleasure palace. Those who feel unwanted are likely to be drawn to his intoxicating presence.
+100. The bearer turns slowly into gelatin over 1d10 days. The bearer retains their original shape, and they look mostly normal at a casual glance. Their body becomes very difficult to control- every action relying on Strength, Dexterity, or Constitution gains disadvantage.

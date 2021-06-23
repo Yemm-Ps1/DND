@@ -4,13 +4,16 @@ Import-Module .\src\Write-Banner.ps1
 Import-Module .\src\Classes.ps1
 Import-Module .\src\Functions.ps1
 
+
+
 Write-Banner "DUNGEONS" -ForegroundColor Red
 Write-Banner "      +" -ForegroundColor Red
 Write-Banner "        DRAGONS" -ForegroundColor Red
 $host.ui.RawUI.WindowTitle = "Dungeons & Dragons"
 
 Start-DND
-
+$Whiskers.HP += 2*$Players.level[0]
+$Svenn.HP += 1*$Players.level[0]
 
 # WEIGHT AND STUFF
 
@@ -57,6 +60,8 @@ Function Roll {
     }
     
 }
+
+#foreach($player in $players){$player.level += 1}
 #>
 
 
