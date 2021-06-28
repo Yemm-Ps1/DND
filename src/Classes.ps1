@@ -46,17 +46,24 @@ class character{
     [stat]$INT;
     [stat]$WIS;
     [stat]$CHA;
+    $BonusMaxHPLogic;
     hidden [string]$Colour;
     hidden [string]$Tag;
     hidden [string]$Symbol;
     hidden [int]$HitDie;
     hidden [int]$Initiative;
     hidden [int]$proficiencyBonus;
+
+
+    # TODO 
+    
     [int]GetHP(){
         [int]$perLevel = ($this.HitDie/2)+1
         [int]$withCon = $perLevel + $this.CON.GetMod()
         [int]$total = ($withCon * $this.Level) + ($this.HitDie - $perLevel)
-        return [int]$Total
+        [int]$addedHP = (Invoke-Command -ScriptBlock $this.BonusMaxHPLogic)
+        return [int]$Total + $addedHp
+
     }
     [void]WriteName(){
         Write-Host $this.Name -ForegroundColor $this.Colour -NoNewline
@@ -70,6 +77,7 @@ class character{
     }
     
     [void]Turn(){
+        Write-Verbose "blah blah"
         Write-Host "It is " -NoNewline;$this.WriteName(); Write-Host "'s turn"
         $this.DeclareHP()
         $global:reference = $this
@@ -184,7 +192,8 @@ class player : character {
         [stat]$INT,
         [stat]$WIS,
         [stat]$CHA,
-        [string]$Colour){
+        [string]$Colour,
+        $BonusMaxHPLogic){
             $this.PlayerName = $PlayerName;
             $this.Name = $Name;
             $this.Level = $Level;
@@ -199,6 +208,7 @@ class player : character {
             $this.WIS = $WIS;
             $this.CHA = $CHA;
             $this.Colour = $Colour;
+            $This.BonusMaxHPLogic = $BonusMaxHPLogic
             $this.Symbol = '&';
             $this.Tag = 'Player';
             $this.Rests = $this.Level;
@@ -237,7 +247,7 @@ class player : character {
         Write-Host "$($this.WriteName($true)) has taken a long rest and is now at " -NoNewline; $($this.WriteHP()); Write-Host "hp" -ForegroundColor Red
     }
     [void]ShortRest(){
-        If($this.GetRests() -eq 0){
+        If($this.GetRests() -le 0){
             Write-Host $this.WriteName()"has no rests left!"
             return
         }

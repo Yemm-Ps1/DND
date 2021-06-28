@@ -19,7 +19,7 @@ Function Start-DND {
 Function RandomItem {
     $randomItems = Get-Content "D:\DnD\PND\RandomItems.txt"
     $roll = (!r 1d100 -return)
-    $randomItems | Select-String -Pattern "^$roll."
+    $randomItems | Select-String -Pattern "^$roll\."
 }
 
 Function ShipDamage {
@@ -27,7 +27,6 @@ Function ShipDamage {
 }
 
 Function New-Save{
-    [Alias("Rest")]
     Param(
     $Mod,
     $Limit
@@ -56,8 +55,6 @@ Function Start-Rest {
                 $Player.LongRest()
             }else{
                 $Players.LongRest()
-                $Whiskers.HP += 2*$Players.level[0]
-                $Svenn.HP += 1*$Players.level[0]
             }
         }
         "Short"{
@@ -120,7 +117,7 @@ Function Get-Enemy {
     }
 }
 
-Function New-Player{
+<#Function New-Player{
     Param(
         $PlayerName,
         $Name,
@@ -140,6 +137,7 @@ Function New-Player{
     $Player = [player]::new($PlayerName, $Name, $Level, $HP, $Gold, $HitDie, $AC, $STR, $DEX, $CON, $INT, $WIS, $CHA, $Colour)
     return $Player
 }
+#>
 Function New-Player{
     Param(
         [Parameter(ParameterSetName="Import")]
@@ -158,12 +156,13 @@ Function New-Player{
         $INT,
         $WIS,
         $CHA,
-        $Colour
+        $Colour,
+        $BonusMaxHPLogic
     )
     If($PlayerName){
         $Player = [player]::new($PlayerName, $Name, $Level, $HP, $Gold, $HitDie, $AC, $STR, $DEX, $CON, $INT, $WIS, $CHA, $Colour)
     }else{
-        $Player = [player]::new($importedXML.PlayerName, $importedXML.Name, $importedXML.Level, $importedXML.HP, $importedXML.Gold, $importedXML.HitDie, $importedXML.AC, $importedXML.STR.Value, $importedXML.DEX.Value, $importedXML.CON.Value, $importedXML.INT.Value, $importedXML.WIS.Value, $importedXML.CHA.Value, $importedXML.Colour)
+        $Player = [player]::new($importedXML.PlayerName, $importedXML.Name, $importedXML.Level, $importedXML.HP, $importedXML.Gold, $importedXML.HitDie, $importedXML.AC, $importedXML.STR.Value, $importedXML.DEX.Value, $importedXML.CON.Value, $importedXML.INT.Value, $importedXML.WIS.Value, $importedXML.CHA.Value, $importedXML.Colour, [ScriptBlock]::Create($importedXML.BonusMaxHPLogic))
     }
     return $Player
 }
@@ -196,8 +195,8 @@ Function Get-Players{
 Function Save-Player{
     Param($Player)
     $Player | Export-Clixml ".\Players\$($Player.Name).xml"
-
 }
+
 Function Save-Players{
     ForEach($Player in $Players){Save-Player $Player}
 }
