@@ -253,36 +253,3 @@ Function Start-Combat{
     $args.WriteNameList()
     New-Initiative $args
 }
-
-
-Function RollAdvantage{
-    [Alias("!ra")]
-    Param([int]$modifier)
-    $first = !r 1d20+$modifier -return
-    $second = !r 1d20+$modifier -return
-    $winner = ($first, $second | Measure-Object -max).Maximum
-    Write-Host "Rolled " -NoNewline;Write-Host $winner -ForegroundColor Red -NoNewline; Write-Host " with advantage"
-}
-
-Function Roll {
-    [Alias("!r")]
-    Param($roll = '1d20', [switch]$return)
-    $parsed = $roll -replace ("-", "+-") -split "[+d]+"
-    $i = 0
-    $toAdd = 0
-    [int]$dice = $parsed[0]
-    [int]$value = $parsed[1]
-    If($parsed[2]){
-        ($parsed[2..($parsed.Length-1)]) | ForEach-Object {$i += [int]$_}
-        $toAdd = $i
-    }
-    $rolls=@()
-    For($i = 0; $i -lt $dice; $i++){
-        $rolls += Get-Random -Minimum 1 -Maximum ($value+1)
-        Write-Host "Rolled:"$rolls[-1]
-        $total = $total + $rolls[-1]
-    }
-    Write-Host "Total: "$total + $toAdd = "" -NoNewline
-    Write-Host "$($total + $toAdd)" -ForegroundColor Yellow
-    If($return){Return $total+$toAdd}
-}

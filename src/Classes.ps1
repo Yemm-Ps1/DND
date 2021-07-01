@@ -1,9 +1,11 @@
 class stat{
     [int]$Value;
     [int]$Mod;
+    [bool] $IsSavingProficient
     stat([int]$value){
-        [int]$this.Value = $value
-        [int]$this.Mod = [math]::Floor($value/2)-5
+        [int] $this.Value = $value
+        [int] $this.Mod = [math]::Floor($value/2)-5
+        [bool] $this.IsSavingProficient = $false
     }
     [string]ToString(){
         return [string]$this.Value
@@ -268,4 +270,3 @@ class player : character {
         Write-Host "$($this.WriteName($true)) has $($this.hp)hp!"
     }
 }
-
