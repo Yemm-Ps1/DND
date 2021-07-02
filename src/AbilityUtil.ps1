@@ -99,6 +99,11 @@ Function MakeAbilitySaveThrow {
     }
 }
 
+function GetProficiencyBonus {
+    Param([int] $character_level)
+    return [math]::ceiling($character_level / 4) + 1
+}
+
 function WriteSavingThrowResult {
     param ([player] $defender, [string] $affix, [int] $dc)
     Write-Host $defender.Name -ForegroundColor $defender.Colour -NoNewline
